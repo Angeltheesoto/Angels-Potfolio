@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="Angel Soto">
+ <link rel="stylesheet" href="./main.css">
+ <title>Angels Portfolio</title>
+
+</head>
+<body>
+
+   <header>
+    <nav class="navbar">
+     <ul>
+      <li><a href="./index.html"><h1 class="logo">Angel Soto</h1></a></li>
+      <li><a href="./aboutme.html" class="header-links">About Me</a></li>
+      <li><a href="./projects.html" class="header-links">Projects</a></li>
+      <li><a href="./contact.html" class="header-links">Contact</a></li>
+     </ul>
+    </nav>
+   </header>
+   <main>
+    <section>
+     <h2>I am a Softwear Developer</h2>
+     <div class="index-image" >
+     </div> <br> <hr style="width: 50%; margin: 0 25% 0 25%; height: .01rem; background-color: black; border: none;">
+     <div class="index-text">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim reprehenderit repellendus voluptatibus veniam debitis
+       quod repellat optio suscipit nesciunt, perspiciatis labore maiores harum eveniet nobis natus consequuntur, sequi beatae
+       minus! Ratione cum dolorum numquam totam quaerat, repudiandae eveniet minus illo architecto voluptatibus odio commodi
+       temporibus sunt id? Quos, asperiores similique!</p>
+     </div>
+    </section>
+   </main>
+   <footer>
+    <div class="footer-section">
+     <div class="footer-links">
+      <a href="./aboutme.html">About Me</a><br><br>
+      <a href="./projects.html">Projects</a><br><br>
+      <a href="./contact.html">Contact</a>
+     </div>
+     <div class="copyright">
+      <p>&copy;All Rights Reserved. Made by Angel Soto</p>
+     </div>
+    </div>
+   </footer>
+
+</body>
+</html>
