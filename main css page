@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+/* header ------------ ----------*/
+
+header {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  background-color: #1e1e1e;
+}
+
+.navbar {
+}
+
+ul {
+  width: 100%;
+  color: #1e1e1e;
+  height: 10rem;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 4rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.5;
+}
+
+.logo {
+  margin-right: 1rem;
+  font-size: 2rem;
+  /* padding: -2rem; */
+  text-align: center;
+}
+
+.header-links:hover {
+  color: black;
+  background-color: #eee;
+  /* transform: scale(1.2); */
+  font-size: 2rem;
+  text-shadow: 10px 1px 10px aquamarine;
+}
+
+/* index page ----------------- */
+
+.index-image {
+  background-image: url(./images/pexels-photo-574077.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 50rem;
+  margin: 1rem 0;
+}
+
+.index-text {
+  margin: 3rem 20%;
+}
+
+.index-text p {
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 5rem;
+  margin: 3rem 0;
+  text-shadow: 10px 1px 10px aquamarine;
+}
+
+/* contact page ---------------- */
+
+.contact-image {
+  background-image: url(./images/pexels-photo-5483073.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 30rem;
+  margin: 1rem 0;
+}
+
+.contact-p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* footer ---------------- */
+
+.footer-section {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  background-color: #1e1e1e;
+}
+
+.footer-links {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding: 3rem;
+  float: left;
+  color: white;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: aquamarine;
+  size: 2rem;
+}
+
+.copyright {
+  float: right;
+  color: white;
+  margin: 11rem 5rem 0rem 0;
+}
