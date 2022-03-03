@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="Angel Soto">
+ <link rel="stylesheet" href="./main.css">
+ <title>Angels Portfolio</title>
+ <style>
+ 
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+/* header ------------ ----------*/
+
+header {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  background-color: #1e1e1e;
+}
+
+.navbar {
+}
+
+ul {
+  width: 100%;
+  color: #1e1e1e;
+  height: 10rem;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 4rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.5;
+}
+
+.logo {
+  margin-right: 1rem;
+  font-size: 2rem;
+  /* padding: -2rem; */
+  text-align: center;
+}
+
+.header-links:hover {
+  color: black;
+  background-color: #eee;
+  /* transform: scale(1.2); */
+  font-size: 2rem;
+  text-shadow: 10px 1px 10px aquamarine;
+}
+
+/* index page ----------------- */
+
+.index-image {
+  background-image: url(./images/pexels-photo-574077.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 50rem;
+  margin: 1rem 0;
+}
+
+.index-text {
+  margin: 3rem 20%;
+}
+
+.index-text p {
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 5rem;
+  margin: 3rem 0;
+  text-shadow: 10px 1px 10px aquamarine;
+}
+
+/* contact page ---------------- */
+
+.contact-image {
+  background-image: url(./images/pexels-photo-5483073.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 30rem;
+  margin: 1rem 0;
+}
+
+.contact-p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* footer ---------------- */
+
+.footer-section {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  background-color: #1e1e1e;
+}
+
+.footer-links {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding: 3rem;
+  float: left;
+  color: white;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: aquamarine;
+  size: 2rem;
+}
+
+.copyright {
+  float: right;
+  color: white;
+  margin: 11rem 5rem 0rem 0;
+}
+ </style>
+
+</head>
+<body>
+
+   <header>
+    <nav class="navbar">
+     <ul>
+      <li><a href="./index.html"><h1 class="logo">Angel Soto</h1></a></li>
+      <li><a href="./aboutme.html" class="header-links">About Me</a></li>
+      <li><a href="./projects.html" class="header-links">Projects</a></li>
+      <li><a href="./contact.html" class="header-links">Contact</a></li>
+     </ul>
+    </nav>
+   </header>
+   <main>
+    <section>
+     <h2>I am a Softwear Developer</h2>
+     <div class="index-image" >
+     </div> <br> <hr style="width: 50%; margin: 0 25% 0 25%; height: .01rem; background-color: black; border: none;">
+     <div class="index-text">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim reprehenderit repellendus voluptatibus veniam debitis
+       quod repellat optio suscipit nesciunt, perspiciatis labore maiores harum eveniet nobis natus consequuntur, sequi beatae
+       minus! Ratione cum dolorum numquam totam quaerat, repudiandae eveniet minus illo architecto voluptatibus odio commodi
+       temporibus sunt id? Quos, asperiores similique!</p>
+     </div>
+    </section>
+   </main>
+   <footer>
+    <div class="footer-section">
+     <div class="footer-links">
+      <a href="./aboutme.html">About Me</a><br><br>
+      <a href="./projects.html">Projects</a><br><br>
+      <a href="./contact.html">Contact</a>
+     </div>
+     <div class="copyright">
+      <p>&copy;All Rights Reserved. Made by Angel Soto</p>
+     </div>
+    </div>
+   </footer>
+
+</body>
+</html>
